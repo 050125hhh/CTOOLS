@@ -16,7 +16,8 @@
 8. git rm <file>：删除某个文件
    ![alt text](image-5.png)
 9. git mv <file> <newname>:用于移动或者重命名一个文件
-10. 设置为private的仓库需要验证之后才可以从远程推送文件，使用https协议会需要每次输入验证信息来完成
-    但是也可以选择使用ssh秘钥来进行识别和验证 （需要在setting中间添加以用于识别）
+10. 设置为private的仓库需要验证之后才可以从远程推送文件，使用https协议会需要每次输入验证信息来完成，但是也可以选择使用ssh秘钥来进行识别和验证 （需要在setting中间添加以用于识别）
+11. git push origin master(origin 是指首先设置的远程仓库，master是指当前远程仓库的某个分支)
+
 
    
